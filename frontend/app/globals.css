@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+input, textarea, select {
+  color: #111827 !important;
+  background-color: #ffffff !important;
+}
