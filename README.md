@@ -3,8 +3,8 @@
 An AI-powered question paper generator for teachers.
 
 ## 🚀 Live Demo
-- Frontend: [Vercel Link]
-- Backend: [Railway Link]
+- Frontend: vedaai-project.vercel.app
+- Backend: https://vedaai-project.onrender.com
 
 ## 🛠️ Tech Stack
 - **Frontend:** Next.js + TypeScript
