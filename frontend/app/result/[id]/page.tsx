@@ -50,7 +50,7 @@ export default function ResultPage() {
 
   const fetchAssignment = async () => {
     try {
-      const response = await axios.get(`http://localhost:5000/api/assignments/${id}`);
+      const response = await axios.get(`http://vedaai-project.onrender.com/api/assignments/${id}`);
       setAssignment(response.data);
       if (response.data.status === 'pending' || response.data.status === 'processing') {
         setTimeout(fetchAssignment, 3000);
