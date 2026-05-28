@@ -46,7 +46,7 @@ export default function CreateAssignment() {
     }
     try {
       setLoading(true);
-      const response = await axios.post('http://vedaai-project.onrender.com/api/assignments/create', {
+      const response = await axios.post('https://vedaai-project.onrender.com/api/assignments/create', {
         ...form,
         numberOfQuestions: Number(form.numberOfQuestions),
         totalMarks: Number(form.totalMarks)
